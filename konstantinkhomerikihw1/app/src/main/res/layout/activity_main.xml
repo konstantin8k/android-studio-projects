@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:textColor="#1E3F66"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign up"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#1E3F66"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:text="Facebook"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="#ebebeb"/>
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#1E3F66"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:text="Google"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="#ebebeb" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:inputType="text"
+        android:hint="Name"
+        android:paddingStart="20sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="250dp"
+        android:layout_height="50dp"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:hint="Email"
+        android:paddingStart="20sp"
+        android:inputType="text"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="250dp"
+        android:layout_height="50dp"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:hint="Password"
+        android:paddingStart="20sp"
+        android:inputType="textPassword"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="250dp"
+        android:layout_height="50dp"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:inputType="numberDecimal"
+        android:textColor="@color/black"
+        android:hint="Phone number"
+        android:paddingStart="20sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="250dp"
+        android:layout_height="50dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/register_button"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"/>
+</LinearLayout>
